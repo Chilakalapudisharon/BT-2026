@@ -1,0 +1,6 @@
+a=int(input("enter the first number:"))
+b=int(input("enter the secound number:"))
+if a>b:
+    print("largest=",a)
+else:
+    print("largest=",b)
