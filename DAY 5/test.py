@@ -1,0 +1,6 @@
+f = open("/workspaces/BT-2026/DAY 5/test.txt","r+")
+f.write("I LOVE CODING")
+f.seek(0)
+print(f.read())
+print("File Name is:",f.name)
+print(f.tell())
